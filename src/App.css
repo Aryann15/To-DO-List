@@ -67,6 +67,32 @@ ol li{
   font-weight: 500;
   min-height: 40px;
   display: flex;
+  flex: 1;
   align-items: center;
   text-transform: capitalize;
+}
+
+button.delete{
+  min-height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  border-color: transparent;
+  background-color: rgb(191, 23, 70);
+  color: white;
+  font-size: 10px;
+
+  margin: 0 15px 0 35px;
+  box-shadow: 5px 5px 15px -5px rgb(218, 12, 29);
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  display: inline;
 }
